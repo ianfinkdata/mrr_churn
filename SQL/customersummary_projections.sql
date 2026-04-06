@@ -7,7 +7,7 @@ c.industry_id,
 CONCAT(c.city,', ',c.state,' ',zip) as CustomerLocation,
 COUNT(cw.id) as ContractCount,
 MIN(cw.signature_date) as FirstSignDate,
--- onboarding has a sign to onboard target of 90% of onboards within 90 days 
+-- onboarding has a sign to onboard target of 90% of onboards within 60 days 
 CASE 
 WHEN MIN(cw.signature_date) IS NULL THEN NULL
 ELSE DATE_ADD(MIN(cw.signature_date), INTERVAL 1 MONTH) 
@@ -20,9 +20,8 @@ END AS ThresholdProjectedLiveDate
 from customer as c 
 left join contract as cw on c.id = cw.customer_id
 	-- and cw.opportunity_status = 'closed won'
-    
 group by c.id, Customer, c.industry_id, CustomerLocation
 ;
 
 
-select * from contract;
+select * from customersummary;
