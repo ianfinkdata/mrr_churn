@@ -1,0 +1,11 @@
+id,Customer,industry_id,CustomerLocation,ContractCount,FirstSignDate,FirstProjectedLiveDate,ThresholdProjectedLiveDate
+10001,"Acme Corp",4,"New York, NY 10001",1,2025-10-20,2025-11-20,2025-12-19
+10002,"Globex Corporation",2,"Springfield, IL 62701",0,NULL,NULL,NULL
+10003,"Soylent Corp",7,"San Francisco, CA 94105",1,2026-02-25,2026-03-25,2026-04-26
+10004,Initech,1,"Austin, TX 73301",1,2025-06-25,2025-07-25,2025-08-24
+10005,"Umbrella Corporation",5,"Denver, CO 80202",1,2025-11-10,2025-12-10,2026-01-09
+10006,"Massive Dynamic",3,"Boston, MA 02108",0,NULL,NULL,NULL
+10007,"Stark Industries",6,"Malibu, CA 90265",1,2025-12-15,2026-01-15,2026-02-13
+10008,"Wayne Enterprises",8,"Newark, NJ 07101",0,NULL,NULL,NULL
+10009,"Cyberdyne Systems",2,"San Jose, CA 95112",1,2026-03-30,2026-04-30,2026-05-29
+10010,Hooli,3,"Palo Alto, CA 94301",1,2026-04-03,2026-05-03,2026-06-02
