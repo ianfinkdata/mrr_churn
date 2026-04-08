@@ -1,6 +1,7 @@
 CREATE OR REPLACE VIEW mrr_churn_dictionary as
 SELECT 
     c.TABLE_NAME, 
+    t.TABLE_TYPE,
     c.COLUMN_NAME, 
     c.COLUMN_TYPE, 
     c.IS_NULLABLE, 
@@ -9,6 +10,9 @@ SELECT
     c.EXTRA
 FROM 
     information_schema.columns c
+    join information_schema.tables t 
+    on c.table_schema = t.table_schema
+    and c.table_name = t.table_name
 WHERE 
     c.TABLE_SCHEMA = 'mrr_churn'
 ORDER BY 
