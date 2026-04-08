@@ -37,7 +37,7 @@ Feel free to explore the repository if you are looking to get down under the hoo
     - Version control and documentation
 
 - Gemini
-    - "With me", rarely "for me" throughout the development process.
+    - With me, rarely "for me" throughout the development process.
 
 
 
