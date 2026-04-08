@@ -8,7 +8,7 @@ This portfolio is an end to end database development to analysis representation 
 
 **Velocity as Value:** Accelerating the "sign-to-live" window directly impacts the bottom line by capturing earned revenue faster and synchronizing team delivery speeds.
 
-**Pipeline Over Pivot Table:** Hardcoding contract rules and values eliminates manual recalculations and human error while maintaining audit compliance.
+**Pipeline Over Pivot Table:** Hardcoding contract rules and automating business logic eliminates manual recalculations and human error while maintaining audit compliance.
 
 **One Truth, One Team:**  Since Sales and Accounting now have a shared source of truth, spreadsheet debates are replaced with higher value activities and collaboration.
 
