@@ -1,6 +1,6 @@
 
 
-CREATE OR REPLACE VIEW contractsummary AS 
+-- CREATE OR REPLACE VIEW contractsummary AS 
 
 SELECT *, 
 monthly_revenue * COALESCE(contract_term,1) AS total_revenue,
@@ -10,8 +10,10 @@ monthly_revenue * COALESCE(contract_term,1) - ROUND((monthly_revenue / go_live_m
 FROM contract
 ;
 
-select *
+select *,
+DATE_SUB(DATE_ADD(go_live_deadline, INTERVAL contract_term MONTH), INTERVAL 1 DAY) as contract_end_date
 from contractsummary;
+
 
 
 
