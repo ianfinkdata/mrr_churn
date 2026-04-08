@@ -2,7 +2,7 @@
 
 This portfolio is an end to end database development to analysis representation of my work.
 
-## Executive View on Zero-Gap Growth: Aligning Sales Velocity with Service Reality 
+## Zero-Gap Growth: Aligning Sales Velocity with Service Reality 
 
 **The Revenue Clock:** Service formally "starts" at the onboarding deadline, triggering the automated shift from a sales promise to a revenue-earning relationship.
 
@@ -10,17 +10,19 @@ This portfolio is an end to end database development to analysis representation 
 
 **Pipeline Over Pivot Table:** Hardcoding contract rules and values eliminates manual recalculations and human error while maintaining audit compliance.
 
-**One Truth, One Team**  Since Sales and Accounting now have a shared source of truth, spreadsheet debates are replaced with higher value activities and collaboration.
+**One Truth, One Team:**  Since Sales and Accounting now have a shared source of truth, spreadsheet debates are replaced with higher value activities and collaboration.
 
-## Go Deeper
+## Go Deeper  
+
 Feel free to explore the repository if you are looking to get down under the hood to see how I work. Before you get lost in SELECT statements and CALCULATE(), here is some additional detail
 
-### Goals:
+### Goals:  
+
 1. Create a durable framework that scales with minimal maintenance.
 2. Improve trust and build companywide "one source of truth" for key metrics. 
 3. Enable flexible and rapid development to support fluid business needs & fast growth.
 
-### The Tech Stack: 
+### The Tech Stack:  
 
 - MySQL
     - Built synthetic database from scratch
