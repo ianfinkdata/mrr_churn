@@ -23,5 +23,6 @@ SELECT
     
     -- 5. Remaining Contract Value (After Month 1)
     (monthly_revenue * COALESCE(contract_term, 1)) - ROUND((monthly_revenue / go_live_month_days) * go_live_active_days, 2) AS remaining_contract
-
 FROM mrr_churn.contract;
+
+select * from contractsummary;

@@ -105,3 +105,10 @@ SELECT
     (monthly_revenue * COALESCE(contract_term, 1)) - ROUND((monthly_revenue / go_live_month_days) * go_live_active_days, 2) AS remaining_contract
 
 FROM contract;
+
+
+select * from mrr_churn.mrr_churn_dictionary;
+
+select *, concat(table_name,'_',column_name) as keycolumn from mrr_churn_dictionary;
+
+drop table dim_contract_term_mapping;
