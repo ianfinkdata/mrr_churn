@@ -1,0 +1,8 @@
+id,monthly_revenue,customer_id,sales_rep_id,signature_date,opportunity_status,contract_meeting_target,contract_term,go_live,opt_out,guarantee,go_live_deadline,go_live_month_days,go_live_active_days
+20001,5000.00,10001,101,2025-10-20,"closed won",60,12,30,1,1,2025-11-19,30,12
+20002,2500.00,10003,102,2026-02-25,"closed won",30,6,30,0,0,2026-03-27,31,5
+20003,15000.00,10004,101,2025-06-25,"closed won",NULL,NULL,NULL,0,0,NULL,NULL,NULL
+20004,7500.00,10005,103,2025-11-10,"closed won",90,18,30,1,1,2025-12-10,31,22
+20005,10000.00,10007,102,2025-12-15,"closed won",60,12,30,1,1,2026-01-14,31,18
+20006,20000.00,10009,104,2026-03-30,"closed won",NULL,NULL,NULL,0,0,NULL,NULL,NULL
+20007,3000.00,10010,101,2026-04-03,"closed won",30,6,30,0,0,2026-05-03,31,29
