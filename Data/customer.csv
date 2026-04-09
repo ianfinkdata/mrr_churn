@@ -1,0 +1,12 @@
+id,name,industry_id,city,state,zip,status,created_at
+10001,"Acme Corp",4,"New York",NY,10001,active,"2025-10-12 08:30:00"
+10002,"Globex Corporation",2,Springfield,IL,62701,prospecting,"2026-01-05 14:15:00"
+10003,"Soylent Corp",7,"San Francisco",CA,94105,onboarding,"2026-02-20 09:45:00"
+10004,Initech,1,Austin,TX,73301,canceled,"2025-06-18 11:20:00"
+10005,"Umbrella Corporation",5,Denver,CO,80202,active,"2025-11-03 16:00:00"
+10006,"Massive Dynamic",3,Boston,MA,02108,winback,"2025-08-22 10:30:00"
+10007,"Stark Industries",6,Malibu,CA,90265,active,"2025-12-10 13:10:00"
+10008,"Wayne Enterprises",8,Newark,NJ,07101,prospecting,"2026-03-15 09:05:00"
+10009,"Cyberdyne Systems",2,"San Jose",CA,95112,onboarding,"2026-03-28 15:50:00"
+10010,Hooli,3,"Palo Alto",CA,94301,active,"2026-04-01 11:25:00"
+10011,"ABC Corp",1,"St. Louis",MO,63101,onboarding,"2026-04-07 18:26:14"
